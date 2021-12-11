@@ -6,6 +6,7 @@ fetch("https://www.reddit.com/r/aww/.json")
     console.log(data.data);
     for(let i=0; i<data.data.children.length; i++){
     let box = document.createElement("div");
+    box.id = "box";
     let name = data.data.children[i].data.name;
     let titler = data.data.children[i].data.title;
     let permaLink = data.data.children[i].data.permalink;
