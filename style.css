@@ -1,5 +1,5 @@
 body{
-    background-color: lightsalmon;
+    background-color: lightblue;
 }
 
 img{
@@ -10,6 +10,6 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightblue;
-    padding-bottom: 150px;
+    background-color: lightsalmon;
+    margin-bottom: 150px;
 }

@@ -18,6 +18,7 @@ fetch("https://www.reddit.com/r/aww/.json")
     let theImage = document.createElement("img");
     theImage.setAttribute("src", image)
     let theLink = document.createElement("a");
+    theLink.innerHTML = "Click here to goto reddit!<br>"
     theLink.setAttribute("href", link)
     userName.append(name);
     theTitle.append(titler);
